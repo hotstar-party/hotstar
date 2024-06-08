@@ -47,22 +47,30 @@ video.video {
     padding: 40px 0px 30px 0px;
     background-color: #f1f1f1;
 }
-
+.dummy-h1{
+        padding: 0px 0px 20px 0px;
+        text-align: LEFT;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700; 
+        
+}
 .content h1{
             padding: 0px 0px 20px 0px;
             text-align: LEFT;
-            font-size: 27px;
+            font-size: 30px;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 700;
+            display: inline;
 }
 
 .content p{
-            padding: 0px 0px 0px 0px;
+            padding: 10px 0px 0px 0px;
             font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;     
 }
 .button_five2 {
-    padding: 20px 0px 20px 5px;
+    padding: 30px 0px 20px 5px;
 }
 .btn_five {
     padding: 10px 70px 10px 70px;
@@ -127,10 +135,11 @@ ul {
     padding: 0px 0px 0px 00px;
 }
 
-    .button_five3 {
-        margin: 30px 0px;
-        text-align: left;
-    }
+.button_five3 {
+    margin: 0px 0px;
+    text-align: left;
+    padding-top: 30px;
+}
     .button_five3 a:hover {
         background-color: #04f3fa;
         color:#FFF;
@@ -139,7 +148,12 @@ ul {
     font-size: 38px;
     padding: 0px 0px 10px 0px;
 }
-
+.sub_heading p {
+    padding-bottom: 10px;
+}
+.third_ul {
+    padding-top: 10px;
+}
 .content_third h2{
             
             font-size: 30px;
@@ -163,7 +177,7 @@ ul {
 
 
 .section{
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
    
     
 }
@@ -174,7 +188,7 @@ border: 1px solid #ccc;
 border-radius: 5px;
 color: #444;
 cursor: pointer;
-padding: 10px 20px;
+padding: 20px 20px;
 text-align: left;
 outline: none;
 font-size: 20px;
@@ -200,8 +214,11 @@ background-color: white;
 border: 1px solid #ccc;
 border-top: none;
 }
+.panel p {
+    padding-top: 10px;
+}
 .button_five {
-    margin: 15px 2px;
+     padding: 30px 0px 40px 0px;
 }
 .button_five a:hover {
     background-color: #04f3fa;
@@ -229,11 +246,15 @@ border-top: none;
 .footer_ul{
     padding: 0px 100px 0px 100px;
 }
-.footer p{
+.footer p {
     font-size: 14px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 0px 0px 100px;
+    margin-left: 60px;
+    margin-top: -25px;
 }
-
+.container-dark_li-1 {
+    padding-top: 20px;
+}
 .button_footer {
     text-align: center;
     padding: 30px 40px 30px 0px;
@@ -280,7 +301,7 @@ li.container-dark_li-1 {
     background-color: #0071bc ;
 }
 
-@media screen and (max-width:320px) {
+@media (min-width: 280px) and (max-width: 575px) {
 
     img.site-image.logo {
         padding: 17px 0px 0px 50px;
@@ -301,15 +322,26 @@ li.container-dark_li-1 {
     }
     .button_five1 {
         text-align: end;
-        padding: 28px 0px 30px 30px;
+        padding: 28px 0px 30px 0px;
     }
-
+    .dummy-h1{
+            padding:    0px 0px 20px 0px;
+            text-align: LEFT;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+        
+}
+.video_1 {
+    padding-bottom: 10px;
+}
     .content h1 {
-        padding:    0px 0px 20px 0px;
-        text-align: LEFT;
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 700;
+            padding:    0px 0px 20px 0px;
+            text-align: LEFT;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            display: inline;    
     }
     
     .paragraph_break p {
@@ -334,7 +366,7 @@ li.container-dark_li-1 {
     }
 
     .section {
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
 
@@ -371,7 +403,7 @@ li.container-dark_li-1 {
         background-color: #f1f1f1;
     }
     .btn_five {
-        padding: 10px 60px 10px 60px;
+        padding: 10px 40px 10px 40px;
         background-color: #0071bc;
         color: #FFF;
         font-weight: 500;
@@ -381,7 +413,7 @@ li.container-dark_li-1 {
         border-radius: 50px;
     }
     .content2 h2 {
-        font-size: 30px;
+        font-size: 25px;
         padding: 0px 0px 10px 0px;
     }
     .sub_heading h2 {
@@ -395,8 +427,82 @@ li.container-dark_li-1 {
         padding: 40px 10px 20px 10px;
         background-color: #0071bc ;
     }
-
-
-
+    ul.lkl{
+        padding: 0px 0px;
+    }
+    .btn_footer {
+        padding: 10px 40px 10px 40px;
+        background-color: #FFF;
+        color: black;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: 0px;
+        text-decoration: none;
+        border-radius: 50px;
+    }
+    .footer p {
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 
     }
+    @media (min-width: 768px) and (max-width: 1199px) {
+
+        .main_section {
+            padding: 40px 0px 0px 0px;
+            background-color: #f1f1f1;
+        }
+        .dummy-h1 {
+            padding: 0px 0px 20px 0px;
+            text-align: LEFT;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            line-height: 0px;
+        }
+        .content h1 {
+            padding: 0px 0px 20px 0px;
+            text-align: LEFT;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            display: inline;
+        }
+
+        .content p {
+            padding: 10px 0px 0px 0px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: scroll;
+            height: 141px;
+        }
+        .content2 h2 {
+            font-size: 28px;
+            padding: 0px 0px 10px 0px;
+        }
+        .sub_heading h2 {
+            font-size: 28px;
+            padding: 0px 0px 10px 0px;
+        }
+        ul.kiki {
+            padding: 0px 0px;
+            overflow: scroll;
+            height: 200px;
+        }
+        ul.lkl {
+            overflow: scroll;
+            height: 275px;
+        }
+        .main_section_footer {
+            padding: 40px 0px 20px 0px;
+            background-color: #0071bc;
+        }
+        .button_five {
+            margin: 15px 2px;
+            margin-bottom: 50px;
+        }
+
+
+    }        
